@@ -245,7 +245,7 @@ def main():
     
     plot_predictions(y_test, y_pred)
     
-    save_model(model, feature_names, 'aprice/xgboost_rent_model.pkl')
+    save_model(model, feature_names, 'model/xgboost_rent_model.pkl')
     
     print("\n" + "="*60)
     print("EXAMPLE PREDICTION")
