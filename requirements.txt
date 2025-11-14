@@ -1,4 +1,6 @@
 pandas
-seaborne
+seaborn
 matplotlib
 numpy
+xgboost
+scikit-learn
