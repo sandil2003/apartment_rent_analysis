@@ -25,6 +25,10 @@ def load_model():
 def index():
     return render_template('index.html')
 
+@app.route('/guide')
+def guide():
+    return render_template('guide.html')
+
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
